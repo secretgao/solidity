@@ -3,6 +3,7 @@ pragma solidity ^0.8.3;
 //存钱罐
 // 规定每周至多取一个eth
 contract EtherStore{
+     //声明一个全局的控制变量，使程序的运行受到控制
      bool controlBool  = false;
     //创建取款金额的阙值
     uint256 public withdarwLimit = 1 ether;
